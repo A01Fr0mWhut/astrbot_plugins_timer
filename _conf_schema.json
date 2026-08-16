@@ -1,0 +1,16 @@
+{
+"tasks": {
+  "description": "指令|时间",
+  "hint":"示例：/test|12:00",
+  "type": "list"
+},
+"switch":{
+    "description": "定时任务开关",
+    "type": "bool"
+},
+"sleep_time":{
+    "description": "定时任务轮询周期（秒）",
+    "type": "int",
+    "default":5
+}
+}
